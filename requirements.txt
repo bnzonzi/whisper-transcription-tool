@@ -18,5 +18,15 @@ huggingface-hub>=0.16.0
 # File handling
 zipfile36>=0.1.3
 
+# Translation services
+deepl>=1.15.0
+googletrans>=4.0.0
+azure-cognitiveservices-language-translator>=3.0.0
+
+# Text processing for French optimization
+language-tool-python>=2.7.1
+spacy>=3.4.0
+
 # System dependencies (install via package manager)
 # sudo apt-get install ffmpeg  # For audio/video conversion
+# python -m spacy download fr_core_news_sm  # French language model
